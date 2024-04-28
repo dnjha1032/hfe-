@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="image/logo hfe.png" type="image/x-icon">
+
+    <!-- ---------------------------linking for counting up------------------------------------------ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://kit.fontawesome.com/cfbad6e9ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/count.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- ---------------------------------------------linking for  faculty image sliding-------------------------------------------- -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <link rel="stylesheet" href="css/hfe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/cfbad6e9ab.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+
+
+
+            <div class="logo">
+                <h2 id="bunch">
+                    <a href="index.html"><img src="image/logo hfe.png" alt=""></a>
+                    <span class="Name" style="color: rgb(208, 167, 19);">High </span> <span class="Name"
+                        style="color: rgb(255, 255, 255);">flight Edu.</span>
+                </h2>
+            </div>
+
+
+            <div class="nav-link" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="Contact us.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Materials</a>
+
+                        
+                        <div class="dropdown-content">
+                            <div><a href="#"> QUIZ</a>
+                                <ul class="more-menu">
+                                    <a href="#">11th</a>
+                                    <a href="#">12th</a>
+    
+                                </ul>
+                            </div>
+                            <div><a href="physics.html">PHYSICS</a></div>
+                            <div><a href="biology.html">BIOLOGY</a></div>
+                            <div><a href="chemistry.html">CHEMISTRY</a></div>
+                            <div><a href="maths.html">MATHEMATICS</a></div>
+                           
+                        </div>
+                        
+                    </li>
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+
+            <div class="text-box-col" id="text">
+                <h1>Leading Coaching   <span class="auto-type"></span>
+                    For 11th,12th (Science) IIT-JEE, NEET & CUET Preparation <br><br><span
+                        style="color:#005B75; font-size: 24px;">Institute focusing on Knowledge & experience sharing
+                    </span></h1>
+
+                <a href="Contact us.html" class="hero-btn" id="join-us">Join Us</a>
+            </div>
+            <div class="text-box-col">
+                <img src="VN/image 36.jpg" alt="">
+            </div>
+        </div>
+        <div class="contact-btn-call">
+
+          
+           
+           <a href="tel:+919304860132"><i class="fa fa-phone" aria-hidden="true"></i>
+        </div>
+        <div class="contact-btn">
+
+          
+           
+            <a href="https://wa.me/+917546879540"><i class="fa fa-whatsapp"></i></a>
+        </div>
+
+    </section>
+
+    <!-- --------------------------------------------------------- count------------------------------------------------------ -->
+    <div class="counter-up">
+        <div class="content">
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-users"></i></div>
+                <div class="counter">500</div>
+                <div class="text">Our Alumni Network</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-medal"></i></div>
+                <div class="counter">45</div>
+                <div class="text"> Result in Competative exam</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-ranking-star"></i></div>
+                <div class="counter">300</div>
+                <div class="text">First Division In Board Exam</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-people-line"></i></div>
+                <div class="counter">480</div>
+                <div class="text">Satistied Parents</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------course----------------------------------------------------- -->
+
+    <section class="course">
+        <h1>Course We offer</h1>
+        <p>Many courses are run by us for the bright future of meritorious students.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3> NEET/ IIT Pre-Foundation </h3>
+                <p>Pre-Foundation courses for NEET and JEE are typically targeted at students in their early stages of
+                    secondary
+                    education, such as classes 8th, 9th, and 10th. These programs aim to provide a strong foundation in
+                    All which are essential for the NEET/JEE exam. </p>
+                <a class="hero-btn" href="Contact us.html">ENROLL NOW</a>
+            </div>
+            <div class="course-col">
+                <h3>NEET/ IIT Foundation </h3>
+                <p>NEET/ IIT foundation course is for Currently 11th -12th student in which they prepare themself for
+                    All India Neet or IIT
+                    exam along with preparartion of their 12th Board exam . We provide best guidence and materials for
+                    their preparartion and crack the Nationl level IIT/ NEET exam and achieve their goal</p>
+                <a class="hero-btn" href="Contact us.html">ENROLL NOW</a>
+            </div>
+            <div class="course-col">
+                <h3>NEET/ IIT Target For 12th Pass</h3>
+                <p>Our this course is design for 12th pass out students. In this course student totally focus on theier
+                    all india Neet exam and JEE mains Exam afer complision of their 12th degree . In this course we
+                    teach student from
+                    Basic to advance level and covers all topic along with previous year questions.
+                </p>
+                <a class="hero-btn" href="Contact us.html">ENROLL NOW</a>
+            </div>
+
+        </div>
+        <h2>Our Faculty</h2>
+    </section>
+
+    <!-- -----------------------------------------------faculty--------------------------------------------- -->
+
+
+    <section class="faculty">
+
+
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay1"> </span>
+                            <div class="card-image">
+                                <img src="image/s.n.jha.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">S.N.Jha Sir</h2>
+                            <p class="discription ">M.Sc Chemistry & B.Ed <br>Chemistry Guru <br>6 Year of experience
+                            </p>
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay2"> </span>
+                            <div class="card-image">
+                                <img src="image/Gopal.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Gopal Sir</h2>
+                            <p class="discription ">M.sc Zoology & B.Ed <br> Navodayan <br>8 Year of experience</p>
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay3"> </span>
+                            <div class="card-image">
+                                <img src="image/d.n.jha.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">D.N.Jha Sir</h2>
+                            <p class="discription ">B.Tech (NIT karnataka) Navodayan <br> Dakshana scholar </p>
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay4"> </span>
+                            <div class="card-image">
+                                <img src="image/deepak.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Deepak sir </h2>
+                            <p class="discription ">M.Sc Mathematics <br> Mathematics Expert <br> 5 year of experience
+                            </p>
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+    </section>
+
+    <!-- ---------------------------------------------facilities---------------------------------------- -->
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, tempore?</p> -->
+
+        <div class="row">
+            <div class="facilities-col">
+                <div class="circle"><i class="fa-solid fa-book"></i></div>
+                <h3>World class study materials</h3>
+                <p> we provide study materials, books, and resources to help students prepare effectively.</p>
+            </div>
+
+            <div class="facilities-col">
+                <div class="circle"><i class="fa-solid fa-trophy"></i></div>
+                <h3>Weekly Test</h3>
+                <p>wefacilities conduct regular practice tests and mock exams to help students become familiar with the
+                    NEET exam pattern</p>
+            </div>
+
+            <div class="facilities-col">
+                <div class="circle"><i class="fa-solid fa-file-circle-question"></i></div>
+                <h3>Doubt sessions</h3>
+                <p>These facilities often provide special sessions for clearing doubts and addressing individual student
+                    queries.</p>
+            </div>
+
+            <div class="facilities-col">
+                <div class="circle"><i class="fa-solid fa-users-rectangle"></i></div>
+                <h3>counseling support</h3>
+                <p>we offer counseling and support services to help students cope with the stress and pressure of
+                    preparing for such a exam.</p>
+            </div>
+        </div>
+        <!-- --------------------------------------------------testinomial----------------------------------------------------------- -->
+    </section>
+    <section class="testimonials">
+        <h1>What our student say</h1>
+        <p>The courses plan self motivated all student across different level</p>
+
+        <div class="row">
+            <div class="testimonials-col ">
+                <img src="image/malka image.jpg" alt="">
+                <div>
+                    <p>
+                        Institute
+                        played an instrumental role in shaping my educational path. The materials are designed to
+                        facilitate efficient learning, with a wide range of practice questions and exercises to
+                        reinforce concepts.
+                    </p>
+                    <h3>Malka Jamil</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            </div>
+
+            <div class="testimonials-col">
+                <img src="image/vikas.jpg" alt="">
+                <div>
+                    <p>
+                        Learning flourishes in an environment that is supportive and encouraging.my coaching center
+                        offers motivational guidance and counseling. The coaches and mentors are not just focused on
+                        academic progress but also on nurturing a resilient mindset
+                    </p>
+                    <h3>Vikas Kumar</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- --------------------------------------------Our Result------------------------------------------------ -->
+
+
+    <h1 style="text-align: center;">Our Result</h1>
+
+    <div class="slide-container swiper">
+
+        <div class="slide-content our-result">
+            <div class="card-wrapper swiper-wrapper">
+
+                <div class=" swiper-slide">
+                    <img style="max-width: 100%; " src="hfe poster/hfe  poster.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                    <img style="width: 100%; " src="hfe poster/hfe poster 2.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                    <img style="width: 100%; " src="hfe poster/hfe result.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ----------------------------------------------call to action---------------------------------------------- -->
+    <section class="contact-us">
+        <h1>Enroll Now</h1>
+
+        <div class="row">
+            <div class="contact-col">
+                <!-- <div> <img style="width: 75%; height:auto;" src="image/apply now2.jpg" alt=""></div> -->
+                <div> <img style="width: 100%;"  src="image/apply now2.jpg" alt=""></div>
+
+            </div>
+            <div class="contact-col form">
+
+                <form action="./form-handlar.php">
+                    <h2>Regestration Form</h2>
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+                    <input type="email" name="email" placeholder="Enter your Email" required>
+                    <input type="tel" name="mobile-no" placeholder="Enter your mobile no" required>
+                    <input type="text" name="course" placeholder="course intrested in" required>
+                    <textarea rows="5" name="Message" placeholder="Message" required></textarea>
+                    <Button type="submit" class="hero-btn"> Send Message</Button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------------------------location------------------------------------------------------------------- -->
+
+    <section class="location">
+        <h1>Institute Location</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d76528.1239971007!2d86.00894993574963!3d26.16941617012775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39edcf70c3488ce3%3A0x28d071078bfeb81!2sHigh%20flight%20edu.!5e0!3m2!1sen!2sin!4v1699364151299!5m2!1sen!2sin"
+            width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <!-- ----------------------------------------------------------Gallery-------------------------------------------- -->
+    <section class="gallary">
+        <h1>Gallery</h1>
+
+
+        <div class="gallary-row " id="gallary">
+            <div class="gallary-col">
+                <img src="VN/image 34.jpg" alt="">
+            </div>
+
+            <div class="gallary-col">
+                <img src="image 2021/image 1.jpg" alt="">
+            </div>
+
+
+            <div class="gallary-col">
+                <img src="image 2021/image 2.jpg" alt="">
+            </div>
+            <div class="gallary-col">
+                <img src="image 2021/image 7.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="gallary">
+
+
+        <div class="gallary-row">
+            <div class="gallary-col">
+                <img src="VN/image 89.jpg" alt="">
+            </div>
+
+            <div class="gallary-col">
+                <img src="VN/image 7.jpg" alt="">
+            </div>
+
+
+            <div class="gallary-col">
+                <img src="VN/image 6.jpg" alt="">
+            </div>
+
+            <div class="gallary-col">
+                <img src="VN/image 96.jpg" alt="">
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- --------------------------------------------footer---------------------------------------------- -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row1">
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <p>Academician's Institution, Guiding Aspirants of IIT-JEE & NEET with Affordable Quality Education. Top Class Faculty team & individual attention Making No. 1 Coaching of Bihar & Most preferred Institution in Darbhanga</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Course</h4>
+                    <p>Students of mithilanchal, Studying in Class 8th, 9th, 10th, 11th, 12th & 12th (Passed) are getting academic excellence support from High flight edu. Whether they are studying in ICSE or CBSE aiming IIT-JEE or NEET</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                   <p>We are happy to hear from you, either Online or Offline. highflightedu@gmail.com
+                    +91- 9304840132, 7546879540
+                    High flight edu. Sakri Bahera road Darbhanga - 847239</p>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/sharda.jha.737"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/high_flight_edu/"><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Copyrights © 2023 high flight edu. All rights reserved.</p>
+   </footer>
+
+    <!-- -------------------------------------------------------java script for Toggle menu-------------------------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- ----------------------------------------------------script for faculty image sliding------------------------------------ -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".slide-content", {
+            slidesPerView: 1,
+            spaceBetween: 43,
+            grabCursor: true,
+            autoplay: {
+                delay: 2200,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            },
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+
+                },
+
+                520: {
+                    slidesPerView: 2,
+
+                },
+                950: {
+                    slidesPerView: 3,
+
+                },
+                951: {
+                    slidesPerView: 4,
+
+                },
+            },
+
+
+        });
+
+
+
+
+
+
+
+
+    </script>
+
+    <script>
+        var swiper = new Swiper(".our-result", {
+            slidesPerView: 1,
+            spaceBetween: 43,
+            grabCursor: true,
+            autoplay: {
+                delay: 2200,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            },
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+
+                },
+
+                520: {
+                    slidesPerView: 2,
+
+                },
+
+            },
+
+
+        });
+
+
+    </script>
+    <!-- --------------------------------------------------script for counting up------------------------------------- -->
+    <script>
+        $(document).ready(function () {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1200
+            });
+        });
+    </script>
+
+<!-- -----------------------------------------text animation---------------------------------------------------------- -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type",{
+            // strings: ["Coding", "Sleeping", "Eating"],
+            strings: ["Institute"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop:true
+        })
+    </script>
+
+</body>
+
+</html>
